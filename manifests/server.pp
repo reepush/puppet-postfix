@@ -46,6 +46,7 @@ class postfix::server (
   $virtual_mailbox_base = false,
   $virtual_uid_maps = false,
   $virtual_gid_maps = false,
+  $virtual_minimum_uid = false,
   $virtual_transport = false,
   $dovecot_destination = '${recipient}',
   $masquerade_classes = false,
@@ -251,4 +252,3 @@ class postfix::server (
   }
 
 }
-
